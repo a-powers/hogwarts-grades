@@ -17,6 +17,6 @@ for student in student_scores:
     elif score > 70:
         student_grades[student] = "Acceptable"
     elif score < 70:
-        student_grades[student] = "Fail"
+        student_grades[student] = "Not Passing"
         
 print(student_grades)
