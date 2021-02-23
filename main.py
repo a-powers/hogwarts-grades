@@ -5,18 +5,3 @@ student_scores = {
   "Draco": 74,
   "Neville": 62,
 }
-
-student_grades = {}
-
-for student in student_scores:
-    score = student_scores[student]
-    if score >= 91:
-        student_grades[student] = "Outstanding"
-    elif score > 80:
-        student_grades[student] = "Exceeds Expectations"
-    elif score > 70:
-        student_grades[student] = "Acceptable"
-    elif score < 70:
-        student_grades[student] = "Not Passing"
-        
-print(student_grades)
